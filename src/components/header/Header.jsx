@@ -1,7 +1,7 @@
 import React from 'react'
-import { Logo } from './header/Logo'
-import { NavBar } from './header/NavBar'
-import { Carrito } from './header/Carrito'
+import { Logo } from './Logo'
+import { NavBar } from './NavBar'
+import { Carrito } from './Carrito'
 
 export const Header = () => {
   return (
