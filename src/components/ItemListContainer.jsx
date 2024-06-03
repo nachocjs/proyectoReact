@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import data from "../data/productos.json";
+import { ItemLista } from "./ItemLista";
 
 export const ItemListContainer = () => {
   
@@ -13,6 +14,14 @@ export const ItemListContainer = () => {
     })
   }
 
+  useEffect(() => {
+
+    pedirProductos()
+    .then((res) => {
+      setProductos(res);
+    })
+  }, [])
+
   pedirProductos()
     .then((res) => {
       setProductos(res);
@@ -20,6 +29,10 @@ export const ItemListContainer = () => {
 
   return (
     <div className="productos-container">
+      <h1 className="tCatalogo">Catálogo</h1>
+      <div className="contenedor-tarjetas">
+      <ItemLista productos={productos} />
+      </div>
     </div>
   )
 }
