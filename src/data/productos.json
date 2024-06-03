@@ -1,0 +1,73 @@
+[
+    {
+        "id": 1,
+        "nombre": "INTEL PROCESADOR I9-14900K LGA 1700",
+        "precio": 869,
+        "imagen": "../src/assets/i9img.jpg",
+        "descripcion": "El procesador Intel Core i9-14900K 6.0GHz, diseñado para placas base LGA1700, es un potente chip de la 14va generación. Ofrece un total de 8 P-Cores y 16 E-Cores, con una frecuencia base de 3,20 GHz para los P-Cores y una impresionante frecuencia máxima de 6,00 GHz. Los E-Cores alcanzan hasta 4,40 GHz. Con 36 MB de memoria caché y un multiplicador desbloqueado, este procesador tiene un TDP de 125W. Se basa en la microarquitectura Raptor Lake Refresh y promete un rendimiento excepcional.",
+        "categoria": {
+            "id":"cpu",
+            "nombre":"Cpu"
+        }
+    },
+    
+    {
+        "id": 2,
+        "nombre": "INTEL PROCESADOR I7-14700K LGA 1700",
+        "precio": 606,
+        "imagen": "./src/assets/i7img.png",
+        "descripcion": "La nueva generación de procesadores Intel Core i7 14700K destaca por sus 6 GHz, una mejora de hasta el 23% del rendimiento en los videojuegos y una velocidad de flujo de trabajo un 54% más rápida.",
+        "categoria": {
+            "id":"cpu",
+            "nombre":"Cpu"
+        }
+    },
+
+    {
+        "id": 3,
+        "nombre": "INTEL PROCESADOR I5-14600K LGA 1700",
+        "precio": 455,
+        "imagen": "./src/assets/i5img.png",
+        "descripcion": "El procesador Intel Core i5 LGA1700 es una potencia de procesamiento con 14 núcleos y 20 hilos, lo que lo hace ideal para tareas intensivas de multitarea y aplicaciones exigentes. Su frecuencia de 3500 MHz garantiza un rendimiento ágil y receptivo en una amplia gama de escenarios, desde juegos hasta aplicaciones profesionales.",
+        "categoria": {
+            "id":"cpu",
+            "nombre":"Cpu"
+        }
+    },
+
+    {
+        "id": 4,
+        "nombre": "ASUS B660-A STRIX GAMING WIFI D4",
+        "precio": 410,
+        "imagen": "./src/assets/placaAsus.png",
+        "descripcion": "ASUS ROG Strix B660-A WiFi D4 LGA 1700 (Intel 12ª generación) ATX placa base para juegos (PCIe 5.0, 12+1 etapas de potencia, WiFi 6, LAN de 2.5 Gb, ranuras 3xM.2, soporte PCIe 4.0 NVMe® SSD, USB 3.2 Gen 2x2 tipo-C)",
+        "categoria": {
+            "id":"mb",
+            "nombre":"MOTHERBOARDS"
+        }
+    },
+
+    {
+        "id": 5,
+        "nombre": "GIGABYTE PLACA Z690 AORUS PRO DDR4",
+        "precio": 467,
+        "imagen": "./src/assets/placaAorus.png",
+        "descripcion": "Motherboard Gigabyte Z690 Aorus PRO DDR4 LGA1700 Intel 12 Gen. WiFi Bluetooth RGB Fusion NVME Diseño Térmico",
+        "categoria": {
+            "id":"mb",
+            "nombre":"MOTHERBOARDS"
+        }
+    },
+
+    {
+        "id": 6,
+        "nombre": "ASUS PLACA TUF GAMING Z790-PRO WIFI",
+        "precio": 416,
+        "imagen": "./src/assets/placaTuf.png",
+        "descripcion": "TUF GAMING Z790-PRO WIFI combina los últimos procesadores Intel® con funciones listas para juegos y durabilidad de grado militar. Con su solución de energía premium y su completo sistema de enfriamiento, esta placa base ofrece un rendimiento sólido para juegos maratonianos. Y se somete a rigurosas pruebas de resistencia para garantizar la confiabilidad en condiciones difíciles. Mientras tanto, un distintivo emblema de goma gris adorna el disipador térmico VRM, celebrando la esencia central del vigor de TUF GAMING.",
+        "categoria": {
+            "id":"mb",
+            "nombre":"MOTHERBOARDS"
+        }
+    }
+]
