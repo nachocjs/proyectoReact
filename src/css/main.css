@@ -89,3 +89,55 @@
 .img-nav {
     height: 25px;
 }
+
+.btn-mas{
+    border: none;
+    border-radius: 5px;
+    padding: .3rem;
+    font-size: 18px;
+    margin-top: 1.5rem;
+    background-color: burlywood;
+}
+
+.btn-mas a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.tDetalle {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    margin-top: 5rem;
+}
+
+.detalleContainer{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 1rem;
+    border: solid;
+    border-color: bisque;
+    margin-top: 4rem;
+    padding: 1rem;
+}
+
+.container-precio-descripcion{
+    text-align: center;
+    margin: auto;
+    margin-right: 0;
+}
+
+.imgDetalle {
+    margin-left: 100px;
+}
+
+.precioContainer{
+    margin-top: 4rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+.textoDetalle{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
