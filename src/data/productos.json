@@ -3,7 +3,7 @@
         "id": 1,
         "nombre": "INTEL PROCESADOR I9-14900K LGA 1700",
         "precio": 869,
-        "imagen": "./src/assets/i9img.jpg",
+        "imagen": "/src/assets/i9img.jpg",
         "descripcion": "El procesador Intel Core i9-14900K 6.0GHz, diseñado para placas base LGA1700, es un potente chip de la 14va generación. Ofrece un total de 8 P-Cores y 16 E-Cores, con una frecuencia base de 3,20 GHz para los P-Cores y una impresionante frecuencia máxima de 6,00 GHz. Los E-Cores alcanzan hasta 4,40 GHz. Con 36 MB de memoria caché y un multiplicador desbloqueado, este procesador tiene un TDP de 125W. Se basa en la microarquitectura Raptor Lake Refresh y promete un rendimiento excepcional.",
         "categoria": {
             "id":"cpu",
@@ -15,7 +15,7 @@
         "id": 2,
         "nombre": "INTEL PROCESADOR I7-14700K LGA 1700",
         "precio": 606,
-        "imagen": "./src/assets/i7img.jpg",
+        "imagen": "/src/assets/i7img.jpg",
         "descripcion": "La nueva generación de procesadores Intel Core i7 14700K destaca por sus 6 GHz, una mejora de hasta el 23% del rendimiento en los videojuegos y una velocidad de flujo de trabajo un 54% más rápida.",
         "categoria": {
             "id":"cpu",
@@ -27,7 +27,7 @@
         "id": 3,
         "nombre": "INTEL PROCESADOR I5-14600K LGA 1700",
         "precio": 455,
-        "imagen": "./src/assets/i5img.jpg",
+        "imagen": "/src/assets/i5img.jpg",
         "descripcion": "El procesador Intel Core i5 LGA1700 es una potencia de procesamiento con 14 núcleos y 20 hilos, lo que lo hace ideal para tareas intensivas de multitarea y aplicaciones exigentes. Su frecuencia de 3500 MHz garantiza un rendimiento ágil y receptivo en una amplia gama de escenarios, desde juegos hasta aplicaciones profesionales.",
         "categoria": {
             "id":"cpu",
@@ -39,7 +39,7 @@
         "id": 4,
         "nombre": "ASUS B660-A STRIX GAMING WIFI D4",
         "precio": 410,
-        "imagen": "./src/assets/placaAsus.jpg",
+        "imagen": "/src/assets/placaAsus.jpg",
         "descripcion": "ASUS ROG Strix B660-A WiFi D4 LGA 1700 (Intel 12ª generación) ATX placa base para juegos (PCIe 5.0, 12+1 etapas de potencia, WiFi 6, LAN de 2.5 Gb, ranuras 3xM.2, soporte PCIe 4.0 NVMe® SSD, USB 3.2 Gen 2x2 tipo-C)",
         "categoria": {
             "id":"mb",
@@ -51,7 +51,7 @@
         "id": 5,
         "nombre": "GIGABYTE PLACA Z690 AORUS PRO DDR4",
         "precio": 467,
-        "imagen": "./src/assets/placaAorus.jpg",
+        "imagen": "/src/assets/placaAorus.jpg",
         "descripcion": "Motherboard Gigabyte Z690 Aorus PRO DDR4 LGA1700 Intel 12 Gen. WiFi Bluetooth RGB Fusion NVME Diseño Térmico",
         "categoria": {
             "id":"mb",
@@ -63,7 +63,7 @@
         "id": 6,
         "nombre": "ASUS PLACA TUF GAMING Z790-PRO WIFI",
         "precio": 416,
-        "imagen": "./src/assets/placaTuf.jpg",
+        "imagen": "/src/assets/placaTuf.jpg",
         "descripcion": "TUF GAMING Z790-PRO WIFI combina los últimos procesadores Intel® con funciones listas para juegos y durabilidad de grado militar. Con su solución de energía premium y su completo sistema de enfriamiento, esta placa base ofrece un rendimiento sólido para juegos maratonianos. Y se somete a rigurosas pruebas de resistencia para garantizar la confiabilidad en condiciones difíciles. Mientras tanto, un distintivo emblema de goma gris adorna el disipador térmico VRM, celebrando la esencia central del vigor de TUF GAMING.",
         "categoria": {
             "id":"mb",
@@ -74,7 +74,7 @@
         "id": 7,
         "nombre": "ASUS GEFORCE ROG-STRIX-RTX4090-O24G-GAMING",
         "precio": 3094,
-        "imagen": "./src/assets/gpu1.jpg",
+        "imagen": "/src/assets/gpu1.jpg",
         "descripcion": "La ROG Strix GeForce RTX® 4090 le da un significado completamente nuevo a ir con la corriente. Por dentro y por fuera, cada elemento de la tarjeta le da a la monstruosa GPU espacio para respirar libremente y lograr el máximo rendimiento. El reinado desatado de la arquitectura NVIDIA Ada Lovelace está aquí.",
         "categoria": {
             "id":"gpu",
@@ -86,7 +86,7 @@
         "id": 8,
         "nombre": "ASUS GEFORCE RTX4080 16G OC ROG-STRIX-RTX4080-O16G-GAMING",
         "precio": 2204,
-        "imagen": "./src/assets/gpu2.jpg",
+        "imagen": "/src/assets/gpu2.jpg",
         "descripcion": "La ROG Strix GeForce RTX™ 4080 aporta un significado completamente nuevo a seguir la corriente. Por dentro y por fuera, cada elemento de la tarjeta le da a la monstruosa GPU espacio para respirar libremente y lograr el máximo rendimiento. El reinado desatado de la arquitectura NVIDIA Ada Lovelace ya está aquí.",
         "categoria": {
             "id":"gpu",
@@ -98,7 +98,7 @@
         "id": 9,
         "nombre": "ASUS ROG STRIX RTX4070TIS-O16G-GAMING",
         "precio": 1513,
-        "imagen": "./src/assets/gpu3.jpg",
+        "imagen": "/src/assets/gpu3.jpg",
         "descripcion": "ASUS ROG -STRIX-RTX4070TIS-O16G-GAMING. Familia de procesadores de gráficos: NVIDIA, Procesador gráfico: GeForce RTX 4070 Ti SUPER. Capacidad memoria de adaptador gráfico: 16 GB, Tipo de memoria de adaptador gráfico: GDDR6X, Ancho de datos: 256 bit. Máxima resolución: 7680 x 4320 Pixeles. Versión DirectX: 12 Ultimate, Versión OpenGL: 4.6. Tipo de interfaz: PCI Express 4.0. Tipo de enfriamiento: Activo, Número de ventiladores: 3 Ventilador(es), Iluminación de color: Multi",
         "categoria": {
             "id":"gpu",
@@ -109,7 +109,7 @@
         "id": 10,
         "nombre": "CORSAIR FUENTE HX1500I 1500W 80+ PLATNIUM CP-9020215-NA",
         "precio": 576,
-        "imagen": "./src/assets/fuente1.jpg",
+        "imagen": "/src/assets/fuente1.jpg",
         "descripcion": "Las fuentes de alimentación de ruido ultrabajo totalmente modulares de la serie CORSAIR HXi con tres conectores EPS12V utilizan componentes de la más alta calidad para ofrecer energía eficiente 80 PLUS Platinum.",
         "categoria": {
             "id":"fuente",
@@ -121,7 +121,7 @@
         "id": 11,
         "nombre": "GIGABYTE FUENTE GP-AP1200PM 1200W 80+ PLATINUM",
         "precio": 495,
-        "imagen": "./src/assets/fuente2.jpg",
+        "imagen": "/src/assets/fuente2.jpg",
         "descripcion": "Monitor LCD digital Certificación 80 PLUS Platinum Diseño totalmente modular Condensadores 100% japoneses Diseño de tamaño compacto Ventilador inteligente con doble rodamiento de bolas de 140 mm Función de eliminación de polvo del ventilador Riel simple de +12 V Protección OVP/OPP/SCP/UVP/OCP/OTP.",
         "categoria": {
             "id":"fuente",
@@ -133,7 +133,7 @@
         "id": 12,
         "nombre": "THERMALTAKE FUENTE 1200W PS-TPD-1200F3FAPU-1",
         "precio": 459,
-        "imagen": "./src/assets/fuente3.jpg",
+        "imagen": "/src/assets/fuente3.jpg",
         "descripcion": "Toughpower PF1 ARGB Platinum Series (850W / 1050W / 1200W) está fabricado con componentes de primera calidad y tecnología avanzada para convertirse en la fusión de estética y rendimiento. El ventilador Riing Duo 14 RGB de 16.8 millones de colores patentado con 18 LED preinstalados ayuda a brindar una iluminación más brillante y más rica. Los paneles laterales ARGB diseñados permiten que la luz brille a través. La serie admite la sincronización con las placas base RGB de ASUS, GIGABYTE, MSI y ASRock para ofrecer posibilidades de iluminación sin límites. Con un funcionamiento casi silencioso y confiable, el Toughpower PF1 ARGB Platinum cumple con las exigentes especificaciones del overclocker o usuario entusiasta de PC.",
         "categoria": {
             "id":"fuente",

@@ -1,0 +1,26 @@
+[
+    {
+        "id":"cpu",
+        "nombre":"Cpu",
+        "imagen": "/src/assets/cpuImg.png"
+    },
+
+    {
+        "id":"mb",
+        "nombre":"MOTHERBOARDS",
+        "imagen": "/src/assets/tarjeta-madre.png"
+    },
+
+    {
+        "id":"gpu",
+        "nombre":"Gpu",
+        "imagen": "/src/assets/gpu.png"
+    },
+
+    {
+        "id":"fuente",
+        "nombre":"Fuente",
+        "imagen": "/src/assets/fuente-de-alimentacion.png"
+        
+    }
+]

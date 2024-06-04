@@ -1,15 +1,24 @@
-import React from 'react'
+import React from 'react';
+import { NavLink } from 'react-router-dom';
+import categories from "../../data/categorias.json";
 
 export const NavBar = () => {
+
   return (
     <div>
         <nav>
             <ul className='nav-Lista'>
-                <li><a href="#">Inicio</a></li>
-                <li><a href="#">Componentes</a></li>
-                <li><a href="#">Perisfericos</a></li>
-                <li><a href="#">Quienes somos</a></li>
-                <li><a href="#">Contacto</a></li>
+                <li><NavLink to="/" activeclassname="active" className="nav-link">Inicio</NavLink></li>
+                {
+                  categories.map((category) => {
+                    return(
+                      <li className='nav-lista'>
+                      <NavLink to={`/category/${category.id}`} activeclassname="active" className="nav-link">{category.nombre}  <img src={category.imagen} className='img-nav'></img></NavLink>
+                    </li>
+                    )
+                    
+                  })
+                }
             </ul>
         </nav>
     </div>
