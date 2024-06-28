@@ -1,6 +1,11 @@
-import React from 'react'
+import React, { useContext } from 'react'
+import { CartContext } from '../contex/CartContext'
 
 export const ItemDetail = ({producto}) => {
+    
+  const { agregarAlCarrito } = useContext(CartContext);
+
+
   return (
     <div>
         <div className='tDetalle'>
@@ -19,6 +24,7 @@ export const ItemDetail = ({producto}) => {
                     <div className='precioContainer'>
                     <p>$ {producto ? 
                         producto.precio : "cargando..."}</p>
+                      <button className='btn-carrito' onClick={() => agregarAlCarrito(producto)}>Agregar al carrito</button>
                     </div>
                     </div>
             </div>

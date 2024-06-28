@@ -1,14 +1,18 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import { Logo } from './Logo'
 import { NavBar } from './NavBar'
-import { Carrito } from './Carrito'
+import { CartWidget } from './CartWidget'
+
 
 export const Header = () => {
+
+
+
   return (
     <div className='header-container'>
         <Logo />
         <NavBar />
-        <Carrito />
+        <CartWidget />
     </div>
   )
 }

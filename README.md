@@ -1,8 +1,7 @@
-# React + Vite
+# Proyecto React MR Componentes
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este es el Proyecto final de React.js elaborado por Ignacio Ramos para una tarea de CoderHouse.
 
-Currently, two official plugins are available:
+Como tal el proyecto esta inspirado en una tiendad de compontes de Pc de alta gama, donde se obtienen los datos desde una base creada en firebase, pudiendo filtrarlos, agregar a un carrito y pudindo genenrar una orden que se alojará nuevamente en firebase.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Gracias por ver mi proyecto!

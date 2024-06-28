@@ -1,8 +1,22 @@
-import React from 'react';
+import React, { useEffect, useState} from 'react';
 import { NavLink } from 'react-router-dom';
-import categories from "../../data/categorias.json";
+import { collection, getDocs, } from "firebase/firestore";
+import { db } from "../../firebase/config"
 
 export const NavBar = () => {
+
+  let [categories, setCategories] = useState([]);
+  
+  useEffect(()=> {
+    const categoriasRef = collection(db, "categorias");
+    getDocs(categoriasRef)
+    .then((res) => {
+      setCategories(res.docs.map((doc) => {
+        return {...doc.data()}
+      }));
+    })
+  }, [])
+
 
   return (
     <div>
@@ -12,7 +26,7 @@ export const NavBar = () => {
                 {
                   categories.map((category) => {
                     return(
-                      <li className='nav-lista'>
+                      <li key={category.id} className='nav-lista'>
                       <NavLink to={`/category/${category.id}`} activeclassname="active" className="nav-link">{category.nombre}  <img src={category.imagen} className='img-nav'></img></NavLink>
                     </li>
                     )
